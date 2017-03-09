@@ -1,12 +1,17 @@
 <template>
   <div id="#app">
+    <header-wrapper></header-wrapper>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
   import store from 'renderer/vuex/store'
+  import HeaderWrapper from 'renderer/components/HeaderWrapper'
   export default {
+    components: {
+      HeaderWrapper
+    },
     store
   }
 </script>
@@ -20,10 +25,10 @@
   }
 
   html,
-  body { height: 100%; }
+  body { height: 100%; width: 100%}
 
   body {
-    align-items: center;
+    /*align-items: center;*/
     background:
       radial-gradient(
         ellipse at center,
@@ -31,7 +36,7 @@
         rgba(229, 229, 229, .85) 100%
       );
     background-position: center;
-    display: flex;
+    display: block;
     font-family: Lato, Helvetica, sans-serif;
     justify-content: center;
     text-align: center;

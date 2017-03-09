@@ -67,5 +67,7 @@
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "element-ui": "^1.2.3"
+  }
 }

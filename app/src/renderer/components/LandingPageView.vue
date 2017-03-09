@@ -13,6 +13,14 @@
   import Links from './LandingPageView/Links'
   import Versions from './LandingPageView/Versions'
   export default {
+    data() {
+      return {
+
+      };
+    },
+    methods: {
+
+    },
     components: {
       CurrentPage,
       Links,
