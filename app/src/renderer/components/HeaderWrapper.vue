@@ -46,5 +46,7 @@ export default {
 </script>
 
 <style>
+.el-tabs__nav-wrap {
 
+}
 </style>
