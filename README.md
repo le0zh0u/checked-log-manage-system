@@ -2,6 +2,52 @@
 
 > log manage system for upyun
 
+## Basic
+
+#### Basic Tech
+
+Programming Language: 
+
+1. Javascript
+2. Shell Script
+
+Js Framework:
+
+1. Vue 2
+2. VueX
+3. Vue-router
+4. Vue-electron
+5. Element UI
+
+##Backlog
+
+Want to create a mac app for Check.fm to manage its download logs in upyun.
+
+It will have **Three** main functions.
+
+1. Log Import. *Need to divide to three parts.*
+2. Log Data Table. Can Divide to Two parts.
+3. Log Data Report
+
+#### TODO
+
+- [ ] Log Import(2/3): Js downloads log fils according to data from step 1.
+- [ ] Log Import(3/3): Js calsl shell scripts to unzip log files, save to database.
+- [ ] Log Data Table: To decide which Fields of Log need to be display in data table 
+- [ ] Log Data Table: Implement a pagable data table
+- [ ] Log Data Report: To decide which data of Log needs to be counted
+- [ ] Log Data Report: Implement Reports by Echarts.js
+
+#### DOING
+
+- [ ] Log Import(1/ 3): Import UI implement. Using Step component.
+
+#### DONE
+
+- [x] Project init.
+
+### #
+
 ## Build Setup
 
 ``` bash
