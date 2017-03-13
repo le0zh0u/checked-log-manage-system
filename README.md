@@ -6,7 +6,7 @@
 
 #### Basic Tech
 
-Programming Language: 
+Programming Language:
 
 1. Javascript
 2. Shell Script
@@ -31,9 +31,9 @@ It will have **Three** main functions.
 
 #### TODO
 
-- [ ] Log Import(2/3): Js downloads log fils according to data from step 1.
-- [ ] Log Import(3/3): Js calsl shell scripts to unzip log files, save to database.
-- [ ] Log Data Table: To decide which Fields of Log need to be display in data table 
+- [ ] Log Import(2/3): Js downloads log files according to data from step 1.
+- [ ] Log Import(3/3): Js calls shell scripts to unzip log files, save to database.
+- [ ] Log Data Table: To decide which Fields of Log need to be display in data table
 - [ ] Log Data Table: Implement a pagable data table
 - [ ] Log Data Report: To decide which data of Log needs to be counted
 - [ ] Log Data Report: Implement Reports by Echarts.js
